@@ -284,7 +284,7 @@ Assigned to: ThemeForest
 
 ;(async () => {
 	const wrapper = document.querySelector('.typed-strings')
-	let response = await fetch('http://localhost:1337/greeting-texts', {
+	let response = await fetch('https://portfolio-muhammadyunus.herokuapp.com/greeting-texts', {
 		headers: {
 			"Content-Type": "application/json"
 		}
@@ -310,7 +310,7 @@ Assigned to: ThemeForest
 
 ;(async () => {
 	const about_me_element = document.querySelector('.prt_about_details')
-	let response = await fetch('http://localhost:1337/informations', {
+	let response = await fetch('https://portfolio-muhammadyunus.herokuapp.com/informations', {
 		headers: {
 			"Content-Type": "application/json"
 		}
